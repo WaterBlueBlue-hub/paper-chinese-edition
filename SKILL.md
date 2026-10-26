@@ -42,7 +42,7 @@ $py    = ".paper-edition-venv\Scripts\python.exe"
 
 ## 需要人工写的两样东西
 
-**裁图坐标** `$job/content/crop_boxes.py`：每个公式、插图、算法列表在原文里的矩形。从 [assets/crop_boxes_template.py](assets/crop_boxes_template.py) 复制，定位方法见 [references/pitfalls.md](references/pitfalls.md)。矩形只要够大能包住目标即可，脚本会自行收紧到墨迹边界；反过来框小了会悄悄切掉内容，所以脚本会逐张报告余量。
+**裁图坐标** `$job/content/crop_boxes.py`：每个公式、插图、算法列表在原文里的矩形。从 [assets/crop_boxes_template.py](assets/crop_boxes_template.py) 复制，定位方法见：[references/pitfalls.md](references/pitfalls.md)。矩形只要够大能包住目标即可，脚本会自行收紧到墨迹边界；反过来框小了会悄悄切掉内容，所以脚本会逐张报告余量。
 
 **译文** `$job/content/partNN_*.py`：每个文件一个 `BLOCKS` 列表。英文不要重打，按段落 id 引用 `segments.json`，译文因此始终可回溯到原文；参考文献按惯例整条保留原文。
 
