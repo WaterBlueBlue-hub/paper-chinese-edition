@@ -1,0 +1,4 @@
+pdfplumber>=0.11,<1
+PyMuPDF>=1.24,<2
+Pillow>=12,<13
+reportlab>=4,<6

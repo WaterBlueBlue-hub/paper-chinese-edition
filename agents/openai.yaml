@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文中译本"
+  short_description: "把英文论文 PDF 译成中文，公式与插图取自原版，版式与原版一致"
+  default_prompt: "用 $paper-chinese-edition 把这份英文论文 PDF 做成版式与原文一致的中文译本。"
